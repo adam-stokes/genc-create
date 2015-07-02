@@ -1,6 +1,6 @@
 {
   "name": "post-creator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "blog post creator",
   "files": [
     "cli.coffee"

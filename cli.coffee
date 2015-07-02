@@ -48,6 +48,8 @@ template = """
 """
 
 console.log "Creating new file in #{fullPath}"
-fs.writeFileAsync("#{fullPath}", template)
+fs.lstatAsync(outputDir)
+  .then((stat) -> return stat.isDirectory())
+  .then(-> return fs.writeFileAsync("#{fullPath}", template))
   .then(-> return editor(fullPath))
-  .catch((e) -> throw Error(e))
+  .catch((e) -> console.error "Problem generating post: #{e}")
