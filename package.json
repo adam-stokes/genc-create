@@ -1,6 +1,6 @@
 {
   "name": "post-creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "blog post creator",
   "files": [
     "cli.coffee"
@@ -14,7 +14,7 @@
   "preferGlobal": "true",
   "author": "adam stokes <hackr@cypherbook.com>",
   "license": "MIT",
-  "Dependencies": {
+  "dependencies": {
     "bluebird": "^2.9.30",
     "editor": "^1.0.0",
     "fs-extra-promise": "^0.1.3",
