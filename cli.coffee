@@ -1,3 +1,4 @@
+#!/usr/bin/env coffee
 Promise = require('bluebird')
 moment = require('moment')
 meow = require('meow')
