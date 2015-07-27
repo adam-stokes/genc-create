@@ -1,21 +1,22 @@
 {
-    "name": "post-creator",
-    "version": "1.0.4",
-    "description": "blog post creator",
-    "bin": {
-        "genc-create": "cli.js"
-    },
-    "preferGlobal": "true",
-    "author": "adam stokes <hackr@cypherbook.com>",
-    "license": "MIT",
-    "repository": "battlemidget\/genc-create",
-    "dependencies": {
-        "bluebird": "^2.9.30",
-        "co": "^4.6.0",
-        "editor": "^1.0.0",
-        "is-dir": "^1.0.0",
-        "meow": "^3.3.0",
-        "moment": "^2.10.3",
-        "mz": "^2.0.0"
-    }
+  "name": "post-creator",
+  "version": "1.0.4",
+  "description": "blog post creator",
+  "bin": {
+    "genc-create": "cli.js"
+  },
+  "preferGlobal": "true",
+  "author": "adam stokes <hackr@cypherbook.com>",
+  "license": "MIT",
+  "repository": "battlemidget/genc-create",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "co": "^4.6.0",
+    "editor": "^1.0.0",
+    "is-dir": "^1.0.0",
+    "is-dir-promise": "^1.0.0",
+    "meow": "^3.3.0",
+    "moment": "^2.10.3",
+    "mz": "^2.0.0"
+  }
 }
